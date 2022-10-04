@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="79dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <!-- Album image -->
+            <ImageView
+                android:id="@+id/list_img_track"
+                android:layout_width="79dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/img_track" />
+
+            <!-- Song name -->
+            <TextView
+                android:id="@+id/list_song_name"
+                android:layout_width="94dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="4dp"
+                android:gravity="top"
+                android:text="@string/song_name"
+                android:textAppearance="@style/song_name" />
+
+            <TextView
+                android:id="@+id/list_singer_name"
+                android:layout_width="83dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:text="@string/singer_name"
+                android:textAppearance="@style/singer_name" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

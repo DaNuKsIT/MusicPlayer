@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MP3Pl</string>
+
+    <string name="search">Search</string>
+    <string name="my_playlist">My playlists</string>
+    <string name="singer_name">Singer name</string>
+    <string name="song_name">Song name</string>
+    <string name="last_change">Last changes: 2/9/22</string>
+    <string name="playlist_na">Playlist name</string>
+    <string name="create_new_">Create new playlist</string>
+    <string name="btn">Button</string>
+    <string name="there_is_nothing_to_l">There is nothing to listen</string>
+    <string name="profile">Profile</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/iphone_11_p"
+    android:clipToOutline="true"
+    android:background="@drawable/iphone_11_p"
+    tools:targetApi="s">
+
+    <!-- Moon -->
+
+    <ImageButton
+        android:id="@+id/theme_btn"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/moon"
+        android:contentDescription="@string/btn"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Profile text -->
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile" />
+
+    <!--Location lines-->
+
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="94dp"
+        >
+
+        <ImageButton
+            android:id="@+id/line_location_1"
+            android:layout_width="20dp"
+            android:layout_height="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/line_location_inactive"
+            android:contentDescription="@string/btn"
+            />
+
+        <ImageButton
+            android:id="@+id/line_location_2"
+            android:layout_width="20dp"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/line_location_inactive"
+            android:contentDescription="@string/btn"
+            />
+
+        <ImageButton
+            android:id="@+id/line_location_3"
+            android:layout_width="20dp"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/line_location_active"
+            android:contentDescription="@string/btn"
+            />
+    </RelativeLayout>
+
+    <!-- Blocks -->
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        >
+
+        <ImageButton
+            android:id="@+id/block_1"
+            android:layout_width="193dp"
+            android:layout_height="141dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/block_big_profile"
+            android:contentDescription="@string/btn"
+            />
+
+        <ImageButton
+            android:id="@+id/block_2"
+            android:layout_width="133dp"
+            android:layout_height="141dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/block_little_profile"
+            android:contentDescription="@string/btn"
+            />
+
+        <ImageButton
+            android:id="@+id/block_3"
+            android:layout_width="133dp"
+            android:layout_height="141dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="152dp"
+            android:background="@drawable/block_little_profile"
+            android:contentDescription="@string/btn"
+            />
+
+        <ImageButton
+            android:id="@+id/block_4"
+            android:layout_width="193dp"
+            android:layout_height="141dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/block_big_profile"
+            android:contentDescription="@string/btn" />
+
+    </RelativeLayout>
+
+    <!-- Line -->
+
+    <View
+        android:id="@+id/line_9"
+        android:layout_width="297.02dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="458dp"
+        android:background="@drawable/profile_line" />
+
+
+
+        </RelativeLayout>
+
+<!--    Intent intent = new Intent(MainActivity.this, ListActivity.class)-->
+<!--    startActivity(intent)-->
+<!--    overridePendingTransition(R.anim.slide_to_right, R.anim.slide_out_left)-->

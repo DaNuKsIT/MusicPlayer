@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="last_change">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="singer_name">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/thinFont</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="search">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/thinFont</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="song_name">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="playlist_name">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="my_playlist">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="create_new_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+    <style name="profile">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/basicFont</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="seek_bar">
+        <item name="android:progressTint">@color/thinFont</item>
+        <item name="android:progressBackgroundTint">@color/progressBackgroundTint</item>
+        <item name="android:thumb">@drawable/car_ui_recyclerview_scrollbar_thumb</item>
+        <item name="android:width">377dp</item>
+        <item name="android:height">10dp</item>
+        <item name="actionBarSize">10dp</item>
+    </style>
+
+</resources>
